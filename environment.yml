@@ -1,0 +1,17 @@
+name: null
+
+channels:
+  - conda-forge
+  - defaults
+
+dependencies:
+  - pip
+  - flask
+  - numpy
+  - matplotlib=3.2.2
+  - websocket-client
+
+  - pip:
+    - backtrader
+    - python-binance
+    - TA-Lib
